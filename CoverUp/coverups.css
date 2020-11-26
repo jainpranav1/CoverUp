@@ -1,0 +1,119 @@
+
+/* specifies styles of user interface buttons and stickies*/
+
+.coverup_button {
+	height: 50px !important;
+	width: 100px !important;
+	background-color: #4CAF50 !important;
+	color: rgb(255, 255, 255) !important;
+	font-family: Trebuchet MS !important;
+	font-size: 16px !important;
+	outline: none !important;
+	border: none !important;
+	position: fixed !important;
+	top: 0px !important;
+	left: 15px !important;
+	z-index: 1000000 !important;
+	line-height: normal !important;
+	border-radius: 0px !important;
+}
+
+.coverup_button:hover {
+	background-color: #3e8e41 !important;
+	transition-duration: 0.4s !important;
+}	
+
+.clear_button {
+	height: 50px !important;
+	width: 100px !important;
+	background-color: #4CAF50 !important;
+	color: rgb(255, 255, 255) !important;
+	font-family: Trebuchet MS !important;
+	font-size: 16px !important;
+	outline: none !important;
+	border: none !important;
+	position: fixed !important;
+	top: 0px !important;
+	left: 130px !important;
+	z-index: 1000000 !important;
+	line-height: normal !important;
+	border-radius: 0px !important;
+}
+
+.clear_button:hover {
+	background-color: #3e8e41 !important;
+	transition-duration: 0.4s !important;
+}
+
+.free_button {
+	height: 50px !important;
+	width: 100px !important;
+	background-color: #4CAF50 !important;
+	color: rgb(255, 255, 255);
+	font-family: Trebuchet MS !important;
+	font-size: 16px !important;
+	outline: 5px solid #445e93 !important;
+	outline-offset: -5px !important;
+	border: none !important;
+	position: fixed !important;
+	top: 0px !important;
+	left: 245px !important;
+	z-index: 1000000 !important;
+	line-height: normal !important;
+	border-radius: 0px !important;
+	white-space:pre-line !important;
+	text-align: center !important;
+}
+
+.free_button:hover {
+	background-color: #3e8e41 !important;
+	transition-duration: 0.4s !important;
+}
+
+.free_button_toggle {
+	outline: 5px solid #ff414d !important;
+	outline-offset: -5px !important;
+}
+
+
+.duplicate_button {
+	height: 50px !important;
+	width: 100px !important;
+	background-color: #4CAF50 !important;
+	color: rgb(255, 255, 255) !important;
+	font-family: Trebuchet MS !important;
+	font-size: 16px !important;
+	outline: none !important;
+	border: none !important;
+	position: fixed !important;
+	top: 0px !important;
+	left: 358px !important;
+	z-index: 1000000 !important;
+	line-height: normal !important;
+	border-radius: 0px !important;
+}
+
+.duplicate_button:hover {
+	background-color: #3e8e41 !important;
+	transition-duration: 0.4s !important;
+}
+
+.coverup {
+	height: 100px;
+	width: 100px;
+	background-color: #7eb2dd;
+	outline: 10px solid #445e93;
+	outline-offset: -10px;
+	z-index: 999999;
+	left: 15px;
+}
+
+.coverup:active {
+	filter: brightness(85%);
+}
+
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: none;
+}
+
